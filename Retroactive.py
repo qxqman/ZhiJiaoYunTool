@@ -8,7 +8,7 @@ from Get_Day_Course import get_course
 def main(stuid, schoolid):
     print("【欢迎使用职教云补签助手】")
     print("注意事项：修改之后课堂表现可看到结果，老师那边会显示已参与")
-    print("                  By:Lan")
+    print("                  By")
     date = input("请输入需要补签的日期如(2020-5-20)：")
     courses = get_course(stuid, date)
     if courses == 'no':
@@ -70,7 +70,7 @@ def main(stuid, schoolid):
                     menu()
         else:
             print(html['msg'])
-            print("逆天改命失败，请联系Lan")
+            print("逆天改命失败")
             from Main import main as menu
             menu()
 
